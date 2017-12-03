@@ -6,7 +6,7 @@ public class  TradeValidator {
 	}
 
 	public  boolean isPriceValid(Trade t){
-		return  t.getPrice() != null || t.getPrice().signum() == 1;
+		return  t.getPrice() != null && t.getPrice().signum() == 1;
 	}
 	
 	public  boolean isRateValid(Trade t){
