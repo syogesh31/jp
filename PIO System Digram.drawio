@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T11:56:38.345Z" agent="5.0 (X11)" etag="IFA1cbmXh_OnPKYAUSPk" version="14.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-15T12:28:47.625Z" agent="5.0 (X11)" etag="JFiy9ws7Od6V2IM8Qu3H" version="14.9.5" type="github" pages="2">
   <diagram id="2DMQRh_tjgX_4L5HRqkf" name="Page-1">
-    <mxGraphModel dx="5300" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4825" dy="1801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -564,26 +564,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aWmiFXpM45CYxDJkca2W" name="Page-2">
-    <mxGraphModel dx="1425" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="814" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pvOwhw8bZsIa1Vku44R1-0" />
         <mxCell id="pvOwhw8bZsIa1Vku44R1-1" parent="pvOwhw8bZsIa1Vku44R1-0" />
-        <mxCell id="Hh4YJqWkQztcuVfXBY-w-7" value="poi-models" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;comic=0;fontFamily=Comic Sans MS;fontSize=11;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
-          <mxGeometry x="360" y="50" width="320" height="290" as="geometry" />
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-2" value="poi-models" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="47" y="37" width="465" height="418" as="geometry" />
         </mxCell>
-        <mxCell id="Hh4YJqWkQztcuVfXBY-w-8" value="PoiRequest" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;comic=0;fontFamily=Comic Sans MS;fontSize=11;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
-          <mxGeometry x="400" y="90" width="140" height="104" as="geometry">
-            <mxRectangle x="400" y="90" width="90" height="26" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-1" value="com.tomtom.poi.validation.model.request" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=182;tabHeight=28;tabPosition=left;html=1;rounded=0;sketch=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="589" y="527" width="384" height="167" as="geometry" />
         </mxCell>
-        <mxCell id="Hh4YJqWkQztcuVfXBY-w-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hh4YJqWkQztcuVfXBY-w-8">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiPorcessingRequest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestId: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- imageId: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- pois:List&amp;lt;PoiObjects&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- location: Location&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- date:Date&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="539" y="42" width="231" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="Hh4YJqWkQztcuVfXBY-w-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hh4YJqWkQztcuVfXBY-w-8">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiObjects&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ category: PoiType&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ shape:PoiRectangle&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ confidence:float&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="539" y="192" width="159" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="Hh4YJqWkQztcuVfXBY-w-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Hh4YJqWkQztcuVfXBY-w-8">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;STR(&quot;Store&quot;)&lt;/div&gt;&lt;div&gt;TSPT(&quot;Tourist Spot&quot;)&lt;/div&gt;&lt;div&gt;HSPTL(&quot;Hospital)&lt;/div&gt;&lt;div&gt;SCHL(&quot;School&quot;)&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="539" y="322" width="155" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiRectangle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ x: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ y: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ height:int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ width:int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="724" y="190" width="159" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Location&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;STR(&quot;Store&quot;)&lt;/div&gt;&lt;div&gt;TSPT(&quot;Tourist Spot&quot;)&lt;/div&gt;&lt;div&gt;HSPTL(&quot;Hospital)&lt;/div&gt;&lt;div&gt;SCHL(&quot;School&quot;)&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="724" y="328" width="155" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
