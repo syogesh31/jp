@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T12:23:55.034Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="sVHcrZOUGeZ4h2PeIQF3" version="14.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-16T12:24:50.903Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="omhmTtcn0NoUUyLo4c-4" version="14.5.4" type="github" pages="3">
   <diagram id="2DMQRh_tjgX_4L5HRqkf" name="System Design">
     <mxGraphModel dx="5672" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -297,7 +297,7 @@
           <mxGeometry x="-1100" y="220" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IiEro8yEEvl8PV1Ne82V-126" value="&lt;table style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;POI&lt;br&gt;&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Confidence Upper Range&lt;br&gt;&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Confidence Lower Range&lt;/th&gt;&lt;td&gt;&lt;b&gt;validation Topic&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;School&lt;span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;1.0&lt;br&gt;&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;school.extracted&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Sore&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;store.extracted&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Tourist Spot&lt;br&gt;&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;td&gt;touristspot.extracted&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Gas Station&lt;br&gt;&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;td&gt;gasstation.extracted&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;comic=0;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-2590" y="545" width="520" height="120" as="geometry" />
+          <mxGeometry x="-2590" y="553" width="520" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IiEro8yEEvl8PV1Ne82V-36" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://user-images.githubusercontent.com/33158051/103466606-760a4000-4d14-11eb-9941-2f3d00371471.png;" parent="1" vertex="1">
           <mxGeometry x="-3275.0000000000005" y="410" width="38.1" height="20" as="geometry" />
@@ -521,8 +521,8 @@
         <mxCell id="IiEro8yEEvl8PV1Ne82V-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;jumpSize=11;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Comic Sans MS;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="IiEro8yEEvl8PV1Ne82V-190" target="IiEro8yEEvl8PV1Ne82V-224" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IiEro8yEEvl8PV1Ne82V-230" value="Validation can be configured further by level of confidence on POI detected as shown in table " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;fontFamily=Comic Sans MS;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-2235" y="490" width="220" height="47" as="geometry" />
+        <mxCell id="IiEro8yEEvl8PV1Ne82V-230" value="&lt;b&gt;&lt;u&gt;Classification Table &lt;/u&gt;&lt;/b&gt;&lt;br&gt;Validation can be configured further by level of confidence on POI detected as shown in table " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;fontFamily=Comic Sans MS;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-2236" y="490" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sE6Fsui37EeQey2f0RzH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;jumpSize=11;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontFamily=Comic Sans MS;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="IiEro8yEEvl8PV1Ne82V-10" target="IiEro8yEEvl8PV1Ne82V-52" edge="1">
           <mxGeometry relative="1" as="geometry">
