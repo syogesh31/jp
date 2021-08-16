@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T11:32:32.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="xcOeZO7dmSINl0V0xBV0" version="14.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-16T11:58:48.476Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="BLmMBukAfG3UPZDjPJ-t" version="14.5.4" type="github" pages="3">
   <diagram id="2DMQRh_tjgX_4L5HRqkf" name="System Design">
     <mxGraphModel dx="5672" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -705,12 +705,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aWmiFXpM45CYxDJkca2W" name="Class Diagram">
-    <mxGraphModel dx="2272" dy="712" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pvOwhw8bZsIa1Vku44R1-0" />
         <mxCell id="pvOwhw8bZsIa1Vku44R1-1" parent="pvOwhw8bZsIa1Vku44R1-0" />
-        <mxCell id="6Z-KO-0GnS6WoLgY82kY-2" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;fontStyle=1" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
-          <mxGeometry x="47" y="5" width="794" height="944" as="geometry" />
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-2" value="Plain Objects Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;fontStyle=1" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
+          <mxGeometry x="51" y="22" width="1133" height="944" as="geometry" />
+        </mxCell>
+        <mxCell id="B3bTH9ju2kLT9s6-eqqM-14" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=242;tabHeight=23;tabPosition=left;html=1;strokeColor=#33001A;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="787" y="39" width="375" height="327" as="geometry" />
         </mxCell>
         <mxCell id="xxuCbQdZTWKl_B1WmX5I-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=32;tabPosition=left;html=1;rounded=0;sketch=0;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
           <mxGeometry x="97" y="660" width="698" height="254" as="geometry" />
@@ -736,7 +739,7 @@
         <mxCell id="6Z-KO-0GnS6WoLgY82kY-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiRectangle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- x: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- y: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- height:int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- width:int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="BKt6WBs9O_mvs9C_eqpJ-3" vertex="1">
           <mxGeometry x="499.4" y="53.581917475728154" width="141.99574468085106" height="125.10315533980582" as="geometry" />
         </mxCell>
-        <mxCell id="6Z-KO-0GnS6WoLgY82kY-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiPorcessingRequest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestId: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- pois:List&amp;lt;PoiObjects&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- location: Location&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- date:Date&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="BKt6WBs9O_mvs9C_eqpJ-6" vertex="1">
+        <mxCell id="6Z-KO-0GnS6WoLgY82kY-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiProcessingRequest&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestId: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- pois:List&amp;lt;PoiObjects&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- location: Location&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- date:Date&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="BKt6WBs9O_mvs9C_eqpJ-6" vertex="1">
           <mxGeometry x="13.523404255319148" y="49.56917475728155" width="223.13617021276593" height="133.12864077669903" as="geometry" />
         </mxCell>
         <mxCell id="6Z-KO-0GnS6WoLgY82kY-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiObjects&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- category: PoiType&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- shape:PoiRectangle&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- confidence:float&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="BKt6WBs9O_mvs9C_eqpJ-6" vertex="1">
@@ -755,13 +758,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BKt6WBs9O_mvs9C_eqpJ-24" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=278;tabHeight=32;tabPosition=left;html=1;rounded=0;sketch=0;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
-          <mxGeometry x="97" y="482" width="698" height="160" as="geometry" />
+          <mxGeometry x="106" y="472" width="698" height="160" as="geometry" />
         </mxCell>
         <mxCell id="BKt6WBs9O_mvs9C_eqpJ-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiProcessingBasicResponse&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- message:String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- timeStamp: Date&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
           <mxGeometry x="118" y="517" width="230" height="103" as="geometry" />
         </mxCell>
         <mxCell id="C-2eeVJF1IMHzrk5uJjQ-3" value="" style="group;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1" connectable="0">
-          <mxGeometry x="48" y="975" width="781" height="367" as="geometry" />
+          <mxGeometry x="211" y="1467" width="781" height="367" as="geometry" />
         </mxCell>
         <mxCell id="C-2eeVJF1IMHzrk5uJjQ-9" value="API Gateway MicroService" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;fontStyle=1" parent="C-2eeVJF1IMHzrk5uJjQ-3" vertex="1">
           <mxGeometry x="-41.72590011614402" y="-9.73474801061008" width="816.376306620209" height="394.36437665782495" as="geometry" />
@@ -769,7 +772,7 @@
         <mxCell id="C-2eeVJF1IMHzrk5uJjQ-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=267;tabHeight=25;tabPosition=left;html=1;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="C-2eeVJF1IMHzrk5uJjQ-3" vertex="1">
           <mxGeometry width="750.1591173054587" height="338.7692307692308" as="geometry" />
         </mxCell>
-        <mxCell id="BKt6WBs9O_mvs9C_eqpJ-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&amp;lt;&amp;lt;EnableKafkaBinding(PoiAuthenticMessageSource) &amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiRequestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ poiRequestProceessor: PoiRequestConsumer&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ poiAuthenticatedMessageSource&lt;b&gt;&lt;b&gt;&lt;b&gt; : &lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;PoiAuthenticMessageSource&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ deviceAuthService: DeviceAuthenicationService&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ receiveRequest(PoiPorcessingRequest):PoiProcessingBasicResponse" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="C-2eeVJF1IMHzrk5uJjQ-3" vertex="1">
+        <mxCell id="BKt6WBs9O_mvs9C_eqpJ-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&amp;lt;&amp;lt;EnableKafkaBinding(PoiAuthenticMessageSource) &amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiRequestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ poiRequestProceessor: &lt;b&gt;PoiRequestConsumer&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ poiAuthenticatedMessageSource&lt;b&gt;&lt;b&gt;&lt;b&gt; : &lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;PoiAuthenticMessageSource&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ deviceAuthService: &lt;b&gt;DeviceAuthenicationService&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ receiveRequest(PoiPorcessingRequest):&lt;b&gt;PoiProcessingBasicResponse&lt;/b&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" parent="C-2eeVJF1IMHzrk5uJjQ-3" vertex="1">
           <mxGeometry x="8.16376306620209" y="110.0026525198939" width="421.79442508710804" height="188.85411140583554" as="geometry" />
         </mxCell>
         <mxCell id="BKt6WBs9O_mvs9C_eqpJ-39" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="C-2eeVJF1IMHzrk5uJjQ-3" source="BKt6WBs9O_mvs9C_eqpJ-36" target="BKt6WBs9O_mvs9C_eqpJ-38" edge="1">
@@ -794,9 +797,9 @@
           <mxGeometry x="144.9957446808511" y="487.1125242718447" width="205.74893617021274" height="18.88349514563107" as="geometry" />
         </mxCell>
         <mxCell id="oXIkrmC83WeFQnecpebo-0" value="" style="group" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1" connectable="0">
-          <mxGeometry x="17" y="1556" width="766" height="295" as="geometry" />
+          <mxGeometry x="173" y="1944" width="766" height="295" as="geometry" />
         </mxCell>
-        <mxCell id="PX8yaV7Zvm1njEOwr0Me-4" value="image-quality-checker Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="oXIkrmC83WeFQnecpebo-0" vertex="1">
+        <mxCell id="PX8yaV7Zvm1njEOwr0Me-4" value="image-quality-checker Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;fontStyle=1" parent="oXIkrmC83WeFQnecpebo-0" vertex="1">
           <mxGeometry width="766" height="295" as="geometry" />
         </mxCell>
         <mxCell id="PX8yaV7Zvm1njEOwr0Me-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=253;tabHeight=32;tabPosition=left;html=1;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="oXIkrmC83WeFQnecpebo-0" vertex="1">
@@ -818,9 +821,9 @@
           <mxGeometry x="490.00368176538905" y="104.0646949602122" width="264.86875725900114" height="114.87002652519894" as="geometry" />
         </mxCell>
         <mxCell id="oXIkrmC83WeFQnecpebo-1" value="" style="group" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1" connectable="0">
-          <mxGeometry x="10" y="1890" width="766" height="295" as="geometry" />
+          <mxGeometry x="182" y="2273" width="766" height="295" as="geometry" />
         </mxCell>
-        <mxCell id="oXIkrmC83WeFQnecpebo-2" value="poi-generic-validator Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="oXIkrmC83WeFQnecpebo-1" vertex="1">
+        <mxCell id="oXIkrmC83WeFQnecpebo-2" value="poi-generic-validator Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;fontStyle=1" parent="oXIkrmC83WeFQnecpebo-1" vertex="1">
           <mxGeometry width="766" height="295" as="geometry" />
         </mxCell>
         <mxCell id="oXIkrmC83WeFQnecpebo-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=253;tabHeight=32;tabPosition=left;html=1;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="oXIkrmC83WeFQnecpebo-1" vertex="1">
@@ -842,9 +845,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="67aqMxG-Nefxh8swToDQ-0" value="" style="group" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1" connectable="0">
-          <mxGeometry x="-3" y="2275" width="766" height="295" as="geometry" />
+          <mxGeometry x="189" y="2598" width="766" height="295" as="geometry" />
         </mxCell>
-        <mxCell id="67aqMxG-Nefxh8swToDQ-1" value="poi-validator-classfier  Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="67aqMxG-Nefxh8swToDQ-0" vertex="1">
+        <mxCell id="67aqMxG-Nefxh8swToDQ-1" value="poi-validator-classfier  Microservice" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;fontStyle=1" parent="67aqMxG-Nefxh8swToDQ-0" vertex="1">
           <mxGeometry width="766" height="295" as="geometry" />
         </mxCell>
         <mxCell id="67aqMxG-Nefxh8swToDQ-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=299;tabHeight=28;tabPosition=left;html=1;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" parent="67aqMxG-Nefxh8swToDQ-0" vertex="1">
@@ -862,14 +865,65 @@
         <mxCell id="xxuCbQdZTWKl_B1WmX5I-6" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Comic Sans MS;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="pvOwhw8bZsIa1Vku44R1-1" source="xxuCbQdZTWKl_B1WmX5I-1" target="xxuCbQdZTWKl_B1WmX5I-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xxuCbQdZTWKl_B1WmX5I-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ObjectValidator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ validateObject(PoiObject): ValidationResult&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;strokeColor=#FF6666;strokeWidth=2;fillColor=#ffffff;gradientColor=none;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
+        <mxCell id="Crel_4-PpMfeCweU4gjB-11" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.081;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="pvOwhw8bZsIa1Vku44R1-1" source="xxuCbQdZTWKl_B1WmX5I-1" target="Crel_4-PpMfeCweU4gjB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxuCbQdZTWKl_B1WmX5I-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ObjectValidator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ validateObject(PoiObject): ValidationResult&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=none;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
           <mxGeometry x="111.12" y="698" width="273.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="xxuCbQdZTWKl_B1WmX5I-3" value="com.tomtom.poi.origination.validations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
           <mxGeometry x="111.12" y="668" width="226" height="18.88" as="geometry" />
         </mxCell>
-        <mxCell id="xxuCbQdZTWKl_B1WmX5I-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;ValidationResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- errorMap:Map&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;+ getValidation();&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addValidationError(String field,List errors);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;strokeColor=#FF6666;strokeWidth=2;fillColor=#ffffff;gradientColor=none;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
+        <mxCell id="xxuCbQdZTWKl_B1WmX5I-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;ValidationResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- errorMap:Map&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;+ getValidation();&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addValidationError(String field,List errors);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;strokeWidth=2;fillColor=#ffffff;gradientColor=none;strokeColor=#33001A;" parent="pvOwhw8bZsIa1Vku44R1-1" vertex="1">
           <mxGeometry x="508" y="701" width="273" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-12" value="" style="group" vertex="1" connectable="0" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="166" y="1130" width="822" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-1" value="School Object Validator MicroService" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;fontStyle=1" vertex="1" parent="Crel_4-PpMfeCweU4gjB-12">
+          <mxGeometry width="822" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=280;tabHeight=21;tabPosition=left;html=1;rounded=0;sketch=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="Crel_4-PpMfeCweU4gjB-12">
+          <mxGeometry x="28" y="21" width="747" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SchoolObjectValidator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;+ validateObject(PoiObject): ValidationResult" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="Crel_4-PpMfeCweU4gjB-12">
+          <mxGeometry x="49" y="59" width="421.79" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-9" value="com.tomtom.poi.origination.validation.services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1" vertex="1" parent="Crel_4-PpMfeCweU4gjB-12">
+          <mxGeometry x="79.9996011564979" y="20.997629728824904" width="186.63172955741712" height="18.382606680229713" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;SpringBootApplication &amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiSchoolValidator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="Crel_4-PpMfeCweU4gjB-12">
+          <mxGeometry x="510" y="75" width="247" height="50.62" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="pvOwhw8bZsIa1Vku44R1-1" source="Crel_4-PpMfeCweU4gjB-13" target="Crel_4-PpMfeCweU4gjB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PoiPorcessingMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestId: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- pois:List&amp;lt;&lt;b&gt;PoiExtractedObjects&lt;/b&gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- location: Location&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- date:Date&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="831.0034042553192" y="75.99917475728157" width="223.13617021276593" height="133.12864077669903" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;PoiExtractedObjects&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- objectImageId:String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- extraMedataData&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &amp;lt;&amp;lt;setters &amp;amp; getters&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;sketch=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="811.07" y="269" width="263" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="pvOwhw8bZsIa1Vku44R1-1" source="6Z-KO-0GnS6WoLgY82kY-4" target="Crel_4-PpMfeCweU4gjB-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Crel_4-PpMfeCweU4gjB-16" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Crel_4-PpMfeCweU4gjB-15">
+          <mxGeometry x="0.1233" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3bTH9ju2kLT9s6-eqqM-0" value="&lt;h1&gt;&lt;b&gt;Class Diagram&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="511" y="-40" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B3bTH9ju2kLT9s6-eqqM-15" value="com.tomtom.poi.origination.model.kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="803.9957446808511" y="41.00252427184466" width="205.74893617021274" height="18.88349514563107" as="geometry" />
+        </mxCell>
+        <mxCell id="B3bTH9ju2kLT9s6-eqqM-16" value="Above classes are used as kafka eventing palyload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1" vertex="1" parent="pvOwhw8bZsIa1Vku44R1-1">
+          <mxGeometry x="811.07" y="393" width="313.93" height="18.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
